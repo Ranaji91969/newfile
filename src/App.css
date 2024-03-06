@@ -1,0 +1,479 @@
+.number1 {
+  border: 10mm;
+  border-color: blue;
+  border-radius: 5%;
+  background-color: aquamarine;
+  height: 8cm;
+  width: 20%;
+  text-align: center;
+  -webkit-text-fill-color: brown;
+  padding: 1cm;
+  
+
+}
+
+.number2 {
+  border: 10mm;
+  border-color: rgb(247, 247, 253);
+  border-radius: 5%;
+  background-color: rgb(71, 73, 40);
+  height: 8cm;
+  width: 20%;
+  text-align: center;
+  -webkit-text-fill-color: rgb(54, 37, 37);
+  padding: 1cm;
+  
+
+}
+/* CSS for the Form component */
+.form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #d7e0c9;
+  border-radius: 10px;
+}
+
+.form h1 {
+  text-align: center;
+}
+
+.messages {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.input {
+  width: 95%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #b35100;
+}
+
+.cart{
+ 
+ 
+  text-align:end;
+   padding: 10px;
+   margin:10px;
+   width: 150px; 
+   height: 400px;
+}
+.pcart{
+ 
+  
+  text-align:left;
+  padding: 10px;
+  margin:10px;
+  width: 200px;
+}
+.capp{
+  background-color:#bbbbbb;
+ background: url(https://img.freepik.com/free-photo/front-view-cyber-monday-composition_23-2149055978.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1699833600&semt=ais);
+ height: 250vh;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+ display:flex;
+justify-Content: space-around;
+margin-top: 10px;
+}
+
+button{
+  border: 2px #818181;
+  color: rgb(255, 251, 251);
+  background-color: rgb(80, 79, 79);
+  border-radius: 20px;
+}
+
+/* vemio plyer */
+
+
+.header{
+  border: 2px solid rgb(165, 162, 162);
+  background-color: white;
+  display:flex;
+  gap: 12.5%;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+  z-index: 1; /* Stay on top */
+}
+
+
+/* The sidebar menu */
+
+.scroll-container {
+  border: 1px solid rgb(160, 159, 159);
+
+  width: 260px;
+  z-index: 1;
+  top: 91px;
+  left: 0px;
+  background-color: #ffffff;
+  padding-top: 20px;
+ 
+  overflow-y: auto;
+  padding: 5px;
+  position: fixed;
+  text-align: center;
+  height: 650px; 
+  overflow: auto;
+  
+}
+
+.scroll-container a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2b2a2a;
+  display: block;
+}
+
+.scroll-container a:hover {
+  color: #696868;
+  background-color: #a9babb;
+}
+
+/* Custom scrollbar styles */
+.scroll-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+/* Style page content */
+.main {
+  width: 100%;
+  height: 250px;
+  margin-left: 5px; 
+  padding: 30px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.gallery {
+  border: 1px solid rgb(122, 120, 120);
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.gallery video {
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery:hover video {
+  transform: scale(1.1);
+  
+}
+
+
+
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 10px;
+  float: left;
+  width: 25.0%;
+  
+  
+}
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 100%;
+    margin: 6px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+    
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cent{
+ 
+  display: flex;
+  position: absolute;
+}
+.h3{
+  background-color: #d7dbd0;
+}
+
+
+
+.back{
+  background-color: #007bff;
+}
+img, svg {
+  vertical-align: middle;
+  width: 126px;
+}
+.button {
+  background-color: white;
+  color: black;
+}
+.button1{
+  background-color: #bdbdbd;
+  color: #2b2a2a;
+  text-align: center;
+
+}
+.button4{
+  font-size: xx-large;
+background-color: #6c757d;
+}
+.Videosplay {
+  padding-left: 259px;
+  width: 544px;
+height: 345px;
+margin: -3px;
+padding-top: 69px;
+
+}
+.upgrade-button {
+  /* Add your styles here */
+  background-color: #aab0b6; /* Blue background color */
+  color: rgb(9, 9, 9); /* White text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; 
+  width: inherit;
+}
+.upgrade-button:hover {
+  background-color: #4b5055; /* Darker blue background color on hover */
+}
+.upgrade {
+  background-color: #ad4eca; /* Blue background color for the Upgrade text */
+  color: white; /* White text color */
+  padding: 3px 6px; /* Add padding to the Upgrade text */
+  border-radius: 3px; /* Add border radius */
+  
+}
+
+a {
+  color: black; /* Default text color for the link */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover for the link */
+}
+/* Navbar */
+.bg-white {
+  background-color: #ffffff;
+  height:90px;
+}
+
+.shadow {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.container {
+  width: 100%;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.mr-4 {
+  margin-right: -1rem;
+ margin: auto;
+ 
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.border {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.border-gray-400 {
+  border-color: #cbd5e0;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.bg-blue-400 {
+  background-color: #4299e1;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.border-black {
+  border-color: #000000;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+/* Custom Styles */
+.custom-search-input {
+  width: 300px;
+}
+
+.custom-upgrade-button {
+  border-color: #000000;
+}
+
+.custom-new-video-button {
+  background-color: #4299e1;
+}
+
+.custom-question-icon {
+  color: #718096;
+}
+
+.custom-bell-icon {
+  color: #4a5568;
+}
+
+.text-black.border.border-1.border-black.font-bold.px-4.p-2.rounded-md {
+  background-color: white;
+ 
+
+  border-radius: 7px;
+}
+.text-white.font-bold.bg-blue-400.p-2.px-4.rounded-md.flex.gap-2 {
+  border-radius: 20px;
+}
+
+
+
